@@ -6,4 +6,4 @@ public class CheckEvenOrOdd {
     int n = sc.nextInt();
         System.out.println(n%2==0 ? "Even" : "Odd");
     }
-}
+} // 1st Question I've Solved
