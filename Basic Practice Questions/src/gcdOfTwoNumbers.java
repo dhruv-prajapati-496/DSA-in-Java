@@ -8,8 +8,8 @@ class gcdOfTwoNumbers{
             int temp = b;
             b = a % b;
             a = temp;
-        }
+        } int gcd = a;
         System.out.print("GCD is: ");
-        System.out.println(a);
+        System.out.println(gcd);
     }
 }
