@@ -11,7 +11,7 @@ public class armstrongNumber {
         n = temp;
         while(n!=0){
             int digit = n%10;
-            sum+= Math.pow(digit,count);
+            sum+= Math.pow(digit,count); // works as digit^count
             n/=10;
         }
         System.out.println( sum == temp ? "Armstrong Number" : "Not an Armstrong Number");
